@@ -1750,7 +1750,7 @@ smote.exsRegressTPhi <- function(data, tgt, N, k, dist, p, pc)
   
 }
 
-#DEFINITION OF VARIABLES FOR RESAMPLING
+#DEFINITION OF VARIABLES FOR EVALUATION
 ds <- create.data(new_d, 10) #Create the embed
 form <- as.formula(V10 ~ .) #Define the formula for performanceEstimation
 #ds <- knnImputation(ds) #Imputation of NA values (DMwR package)
