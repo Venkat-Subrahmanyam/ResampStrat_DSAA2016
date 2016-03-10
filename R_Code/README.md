@@ -1,4 +1,4 @@
-Code used to load, model and run experiments.<br/>
+Code used to load, model, run experiments and obtain results.<br/>
 <br/>
 <b>LoadDataSets.R</b>: Code to load and pre-process the data for each dataset (1-24). <br/>
 <b>Exps.R</b>: After loading the respective data set, and obtaining the "new_d" object, this is the code to run the experiments. They use Monte Carlo estimates, with 50 repetitions using 50% of the data as training and the subsequent 25% as test data. As referenced in the article, for data sets 21 and 22 we used 10%/5% and for data sets 23 and 24, 20%/10%<br/>
