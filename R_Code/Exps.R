@@ -5,6 +5,11 @@ library(uba)
 library(UBL) # only for distance functions
 library(DMwR)
 
+#LOAD THE DATASET
+setwd("") # <- YOU NEED TO SET THE WORKING DIRECTORY TO THE PATH OF THE DATA
+data <- load("data_NM_PB_LT_ECML2016.Rdata")
+new_d <- data[[1]] # (e.g.) Data Set 1 of 24
+
 # data set generated with target variable always on the last column.
 # This is mandatory for smote versions to work correctly.
 # Function to create the embed
@@ -1745,12 +1750,9 @@ smote.exsRegressTPhi <- function(data, tgt, N, k, dist, p, pc)
   
 }
 
-
 #DEFINITION OF VARIABLES FOR RESAMPLING
-
 ds <- create.data(new_d, 10) #Create the embed
 form <- as.formula(V10 ~ .) #Define the formula for performanceEstimation
-
 #ds <- knnImputation(ds) #Imputation of NA values (DMwR package)
 
 exp <- performanceEstimation(PredTask(form,ds),
