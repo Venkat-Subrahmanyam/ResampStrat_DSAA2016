@@ -1,3 +1,13 @@
+LOADING PROCEDURE (in R)
+#####################################
+
+load("data_NM_PB_LT_ECML2016.Rdata")
+
+#####################################
+
+DESCRIPTION
+#####################################
+
 The .Rdata file contains the 24 time series data sets used in the experiments.
 They are as such:
 
@@ -45,3 +55,5 @@ More details are given in the submitted article.
 [4] Alkbilgic O, Bozdogan H, Balaban ME (2014) A novel hybrid RBF neural networks model as a forecaster. Statistics and Computing 24(3):365-375
 [5] Koprinska I, Rana M, Agelidis V (2011) Yearly and seasonal models for electricity load forecasting. Proc. Of 2011 IJCNN, pp 1473-1481
 [6] Source: Águas do Douro e Paiva http://addp.pt/
+
+#####################################
