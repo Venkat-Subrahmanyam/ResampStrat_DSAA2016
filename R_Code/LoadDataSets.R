@@ -1,4 +1,5 @@
 #DATASETS
+setwd("") # <- YOU NEED TO SET THE WORKING DIRECTORY TO THE PATH OF THE DATA
 
 #DATASETS 1 - 13
 load("tseries.RData")
