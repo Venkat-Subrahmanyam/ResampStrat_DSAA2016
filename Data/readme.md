@@ -1,17 +1,19 @@
-LOADING PROCEDURE (in R)
-#####################################
+LOADING PROCEDURE (in R)<br />
 
-load("data_NM_PB_LT_ECML2016.Rdata")
-
-#####################################
-
-DESCRIPTION
-#####################################
+-------------------------------------<br />
+<br />
+load("data_NM_PB_LT_ECML2016.Rdata")<br />
+<br />
+-------------------------------------<br />
+<br />
+DESCRIPTION<br />
+-------------------------------------<br />
 
 The .Rdata file contains the 24 time series data sets used in the experiments.
 They are as such:
 
 Bike Sharing [1]
+
 1 - Temperature (Daily)
 2 - Humiity (Daily)
 3 - Windspeed (Daily)
@@ -56,4 +58,4 @@ More details are given in the submitted article.
 [5] Koprinska I, Rana M, Agelidis V (2011) Yearly and seasonal models for electricity load forecasting. Proc. Of 2011 IJCNN, pp 1473-1481
 [6] Source: Águas do Douro e Paiva http://addp.pt/
 
-#####################################
+-------------------------------------
