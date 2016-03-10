@@ -1,5 +1,3 @@
-setwd("/home/nmoniz/TResampling/Code 2")
-
 library(lubridate)
 library(xts)
 library(performanceEstimation)
