@@ -7,7 +7,7 @@ library(DMwR)
 
 #LOAD THE DATASET
 setwd("") # <- YOU NEED TO SET THE WORKING DIRECTORY TO THE PATH OF THE DATA
-data <- load("data_NM_PB_LT_ECML2016.Rdata")
+data <- load("data_NM_PB_LT_DSAA2016.Rdata")
 new_d <- data[[1]] # (e.g.) Data Set 1 of 24
 
 # data set generated with target variable always on the last column.
